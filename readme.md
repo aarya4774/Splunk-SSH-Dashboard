@@ -45,6 +45,15 @@ This project demonstrates how Splunk can be used for Security Operations Center 
 | Suspicious Login Activity | Detects repeated failed logins and abnormal behavior |
 | Authentication Timeline | Login events over time |
 
+<img width="2463" height="1299" alt="image" src="https://github.com/user-attachments/assets/3a2b9bb3-8eef-4f4d-a9eb-7b27dc411b86" />
+
+
+
+
+
+
+
+
 ---
 
 ## Log Source
