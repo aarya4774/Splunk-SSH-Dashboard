@@ -96,13 +96,15 @@ Example log sources include:
 ### Successful Logins
 
 ```spl
-index=ssh_logs "Accepted password"
+sourcetype="ssh_logs.json" host="LinuxServer" success
+| stats count AS "Successful SSH Logins"
 ```
 
 ### Failed Logins
 
 ```spl
-index=ssh_logs "Failed password"
+sourcetype="ssh_logs.json" host="LinuxServer" failure
+| stats count AS "Failed SSH Logins"
 ```
 
 ### Undetermined Logins
